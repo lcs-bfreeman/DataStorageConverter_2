@@ -4,6 +4,7 @@
 //
 //  Created by Russell Gordon on 2021-02-12.
 //
+
 import SwiftUI
 
 struct ContentView: View {
@@ -15,15 +16,7 @@ struct ContentView: View {
 
     // MARK: Computed properties
     private var output: String {
-        
-        // Ensure the provided input can be expressed as an integer
-        guard let providedValue = Int(input) else {
-            return "Please provide an integer value."
-        }
-
-        // Return the converted value
-        return convert(providedValue: providedValue, fromUnit: fromUnit, toUnit: toUnit)
-
+        return "You typed in \(input) and selected \(fromUnit) for from and \(toUnit) for to"
     }
     
     var body: some View {
