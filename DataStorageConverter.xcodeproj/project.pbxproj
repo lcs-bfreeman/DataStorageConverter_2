@@ -11,6 +11,12 @@
 		0E8F006C25D5B7860023C003 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8F006B25D5B7860023C003 /* Extensions.swift */; };
 		0E8F006F25D5B7E60023C003 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8F006E25D5B7E60023C003 /* Functions.swift */; };
 		0E8F007225D5B8010023C003 /* Enumerations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8F007125D5B8010023C003 /* Enumerations.swift */; };
+		D71EBFC725D6E2EE00B48A64 /* iOS_DataSorageConverterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71EBFC625D6E2EE00B48A64 /* iOS_DataSorageConverterApp.swift */; };
+		D71EBFC925D6E2EE00B48A64 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71EBFC825D6E2EE00B48A64 /* ContentView.swift */; };
+		D71EBFCB25D6E2F300B48A64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D71EBFCA25D6E2F300B48A64 /* Assets.xcassets */; };
+		D71EBFCE25D6E2F300B48A64 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D71EBFCD25D6E2F300B48A64 /* Preview Assets.xcassets */; };
+		D71EBFD525D6E2FD00B48A64 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8F006E25D5B7E60023C003 /* Functions.swift */; };
+		D71EBFD825D6E30100B48A64 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8F006B25D5B7860023C003 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,10 +37,23 @@
 		0E8F006B25D5B7860023C003 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		0E8F006E25D5B7E60023C003 /* Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
 		0E8F007125D5B8010023C003 /* Enumerations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enumerations.swift; sourceTree = "<group>"; };
+		D71EBFC425D6E2EE00B48A64 /* iOS-DataSorageConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-DataSorageConverter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D71EBFC625D6E2EE00B48A64 /* iOS_DataSorageConverterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_DataSorageConverterApp.swift; sourceTree = "<group>"; };
+		D71EBFC825D6E2EE00B48A64 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D71EBFCA25D6E2F300B48A64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D71EBFCD25D6E2F300B48A64 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D71EBFCF25D6E2F300B48A64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		0E8F005D25D5B5F00023C003 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D71EBFC125D6E2EE00B48A64 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -51,6 +70,7 @@
 				0E8F006B25D5B7860023C003 /* Extensions.swift */,
 				0E8F006E25D5B7E60023C003 /* Functions.swift */,
 				0E8F006225D5B5F00023C003 /* DataStorageConverter */,
+				D71EBFC525D6E2EE00B48A64 /* iOS-DataSorageConverter */,
 				0E8F006125D5B5F00023C003 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -59,6 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				0E8F006025D5B5F00023C003 /* DataStorageConverter */,
+				D71EBFC425D6E2EE00B48A64 /* iOS-DataSorageConverter.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -69,6 +90,26 @@
 				0E8F006325D5B5F00023C003 /* main.swift */,
 			);
 			path = DataStorageConverter;
+			sourceTree = "<group>";
+		};
+		D71EBFC525D6E2EE00B48A64 /* iOS-DataSorageConverter */ = {
+			isa = PBXGroup;
+			children = (
+				D71EBFC625D6E2EE00B48A64 /* iOS_DataSorageConverterApp.swift */,
+				D71EBFC825D6E2EE00B48A64 /* ContentView.swift */,
+				D71EBFCA25D6E2F300B48A64 /* Assets.xcassets */,
+				D71EBFCF25D6E2F300B48A64 /* Info.plist */,
+				D71EBFCC25D6E2F300B48A64 /* Preview Content */,
+			);
+			path = "iOS-DataSorageConverter";
+			sourceTree = "<group>";
+		};
+		D71EBFCC25D6E2F300B48A64 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D71EBFCD25D6E2F300B48A64 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -91,6 +132,23 @@
 			productReference = 0E8F006025D5B5F00023C003 /* DataStorageConverter */;
 			productType = "com.apple.product-type.tool";
 		};
+		D71EBFC325D6E2EE00B48A64 /* iOS-DataSorageConverter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D71EBFD225D6E2F300B48A64 /* Build configuration list for PBXNativeTarget "iOS-DataSorageConverter" */;
+			buildPhases = (
+				D71EBFC025D6E2EE00B48A64 /* Sources */,
+				D71EBFC125D6E2EE00B48A64 /* Frameworks */,
+				D71EBFC225D6E2EE00B48A64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS-DataSorageConverter";
+			productName = "iOS-DataSorageConverter";
+			productReference = D71EBFC425D6E2EE00B48A64 /* iOS-DataSorageConverter.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -101,6 +159,9 @@
 				LastUpgradeCheck = 1230;
 				TargetAttributes = {
 					0E8F005F25D5B5F00023C003 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					D71EBFC325D6E2EE00B48A64 = {
 						CreatedOnToolsVersion = 12.3;
 					};
 				};
@@ -119,9 +180,22 @@
 			projectRoot = "";
 			targets = (
 				0E8F005F25D5B5F00023C003 /* DataStorageConverter */,
+				D71EBFC325D6E2EE00B48A64 /* iOS-DataSorageConverter */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D71EBFC225D6E2EE00B48A64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D71EBFCE25D6E2F300B48A64 /* Preview Assets.xcassets in Resources */,
+				D71EBFCB25D6E2F300B48A64 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0E8F005C25D5B5F00023C003 /* Sources */ = {
@@ -132,6 +206,17 @@
 				0E8F006C25D5B7860023C003 /* Extensions.swift in Sources */,
 				0E8F006F25D5B7E60023C003 /* Functions.swift in Sources */,
 				0E8F007225D5B8010023C003 /* Enumerations.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D71EBFC025D6E2EE00B48A64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D71EBFC925D6E2EE00B48A64 /* ContentView.swift in Sources */,
+				D71EBFC725D6E2EE00B48A64 /* iOS_DataSorageConverterApp.swift in Sources */,
+				D71EBFD525D6E2FD00B48A64 /* Functions.swift in Sources */,
+				D71EBFD825D6E30100B48A64 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +360,53 @@
 			};
 			name = Release;
 		};
+		D71EBFD025D6E2F300B48A64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"iOS-DataSorageConverter/Preview Content\"";
+				DEVELOPMENT_TEAM = GLLK6ZL2B5;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "iOS-DataSorageConverter/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.benjaminfreeman.iOS-DataSorageConverter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D71EBFD125D6E2F300B48A64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"iOS-DataSorageConverter/Preview Content\"";
+				DEVELOPMENT_TEAM = GLLK6ZL2B5;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "iOS-DataSorageConverter/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.benjaminfreeman.iOS-DataSorageConverter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -292,6 +424,15 @@
 			buildConfigurations = (
 				0E8F006825D5B5F00023C003 /* Debug */,
 				0E8F006925D5B5F00023C003 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D71EBFD225D6E2F300B48A64 /* Build configuration list for PBXNativeTarget "iOS-DataSorageConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D71EBFD025D6E2F300B48A64 /* Debug */,
+				D71EBFD125D6E2F300B48A64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
