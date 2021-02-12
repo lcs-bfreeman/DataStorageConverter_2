@@ -16,7 +16,15 @@ struct ContentView: View {
 
     // MARK: Computed properties
     private var output: String {
-        return "You typed in \(input) and selected \(fromUnit) for from and \(toUnit) for to"
+        
+        // Ensure the provided input can be expressed as an integer
+        guard let providedValue = Int(input) else {
+            return "Please provide an integer value."
+        }
+
+        // Return the converted value
+        return convert(providedValue: providedValue, fromUnit: fromUnit, toUnit: toUnit)
+
     }
     
     var body: some View {
