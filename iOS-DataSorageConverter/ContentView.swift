@@ -8,15 +8,24 @@
 import SwiftUI
 
 struct ContentView: View {
-    var body: some View {
-        Text("Hello, world!")
-            .padding()
+    
+    @State private var name: String = ""
+    
+    private var greeting: String {
+        return "Hello, \(name)"
     }
-}
 
 var body: some View {
-    Text (greetin)
-        .padding()
+    
+    VStack {
+        
+        TextField("Enter your name", text: $name)
+        
+        Text(greeting)
+            .padding()
+            
+        }
+    }
 }
 
 struct ContentView_Previews: PreviewProvider {
